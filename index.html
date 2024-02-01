@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!--Imports for JavaScript and CSS-->
+    <script src="rps.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors Game</title>
 </head>
 <body>
-    <script src="rps.js"></script>
+    <!--Buttons put in their own div to make for easier formatting-->
+    <div class = "buttons">
+        <button name="Rock" class="playerOption">Rock</button>
+        <button name="Paper" class="playerOption">Paper</button>
+        <button name="Scissors" class="playerOption">Scissors</button>
+    </div>
+
+    <br>
+    <br>
+
+    <!--div container for main text-->
+    <div id="container"></div>
+
+    <br>
+    <br>
+
+    <!--div container for results text-->
+    <div id="results"></div>
+    <br>
+    <br>
+
+    <!--div container for running scores text-->
+    <div id="runningScore"></div>
+
+    <br>
+    <br>
+
+    <!--div container for winning message text-->
+    <div id="winnerMessage"></div>
 </body>
 </html>
